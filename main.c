@@ -7,7 +7,7 @@ int main()
 {
     double tem_c,tem_f;
     char *str;
-    str = readline("Eenter temperature in ceisius: ");
+    str = readline("Enter temperature in ceisius: ");
     tem_c = atof(str);
     free(str);
     tem_f = 1.8*tem_c + 32;
